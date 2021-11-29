@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DevFrame"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Sample Framework in Swift for firebase push notification."
 
   # This description is used to generate tags and improve search results.
@@ -133,7 +133,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  spec.ios.vendored_frameworks = "DevFrame3.xcframework"
+  spec.ios.vendored_frameworks = "0.0.4/DevFrame.xcframework"
   spec.dependency "Firebase/Core"
   spec.dependency "Firebase/Messaging"
 
