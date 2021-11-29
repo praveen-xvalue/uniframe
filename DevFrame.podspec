@@ -133,7 +133,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  spec.ios.vendored_frameworks = "0.0.5/DevFrame.xcframework"
+  spec.ios.vendored_frameworks = "0.0.6/DevFrame.xcframework"
   spec.dependency "Firebase/Core"
   spec.dependency "Firebase/Messaging"
 
